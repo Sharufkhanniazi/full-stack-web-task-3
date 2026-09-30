@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharuf | AI Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top border-bottom border-secondary-subtle">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">Sharuf<span class="accent">.AI</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="mainNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto gap-lg-3">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero-section py-5">
+    <div class="container py-lg-5">
+      <div class="row align-items-center justify-content-between g-5">
+        <div class="col-lg-7">
+          <p class="small-text mb-2">HELLO, I'M</p>
+          <h1 class="display-2 fw-bold">Sharuf Khan</h1>
+          <h2 class="h2 accent mb-3">AI Infrastructure & Backend</h2>
+          <p class="lead text-secondary mb-4">I build backend systems and AI-powered applications using Rust, Python, APIs and modern AI technologies.</p>
+          <a href="#projects" class="btn btn-primary btn-lg">View My Projects</a>
+        </div>
+        <div class="col-sm-8 col-md-6 col-lg-4 mx-auto">
+          <div class="card ai-card text-center p-4">
+            <div class="ai-circle mx-auto mb-3">AI</div>
+            <h3 class="h5">Building with AI</h3>
+            <p class="text-secondary mb-0">Rust • Python • RAG • APIs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section-dark py-5">
+    <div class="container py-lg-5">
+      <p class="small-text">MY WORK</p>
+      <h2 class="display-6 fw-bold mb-4">Featured Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <article class="card project-card h-100 p-4">
+            <div class="project-number">01</div>
+            <h3 class="h4">Multi-Source RAG</h3>
+            <p class="text-secondary">An AI system that searches information from multiple documents and provides relevant answers.</p>
+            <div class="mt-auto"><span class="badge tag">Rust</span> <span class="badge tag">Qdrant</span> <span class="badge tag">AI</span></div>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <article class="card project-card h-100 p-4">
+            <div class="project-number">02</div>
+            <h3 class="h4">Mock Call Trainer</h3>
+            <p class="text-secondary">An AI-powered application for practicing customer support calls and improving communication.</p>
+            <div class="mt-auto"><span class="badge tag">Rust</span> <span class="badge tag">Python</span> <span class="badge tag">LLM</span></div>
+          </article>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <article class="card project-card h-100 p-4">
+            <div class="project-number">03</div>
+            <h3 class="h4">Vehicle Detailing Platform</h3>
+            <p class="text-secondary">A Rust-based microservices platform for an on-demand vehicle detailing service.</p>
+            <div class="mt-auto">
+              <span class="badge tag">Axum</span> <span class="badge tag">PostgreSQL</span>
+              <span class="badge tag">gRPC</span> <span class="badge tag">Kafka</span>
+              <span class="badge tag">Redis</span> <span class="badge tag">WebSockets</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section-dark py-5 border-top border-secondary-subtle">
+    <div class="container py-lg-5">
+      <p class="small-text">WHAT I USE</p>
+      <h2 class="display-6 fw-bold mb-4">My Skills</h2>
+      <div class="row g-3">
+        <div class="col-6 col-lg-3"><div class="card skill-card h-100 text-center p-4"><div class="fs-1 mb-2">🦀</div><h3 class="h5">Rust</h3><p class="text-secondary small mb-0">Backend Development</p></div></div>
+        <div class="col-6 col-lg-3"><div class="card skill-card h-100 text-center p-4"><div class="fs-1 mb-2">🐍</div><h3 class="h5">Python</h3><p class="text-secondary small mb-0">AI & Automation</p></div></div>
+        <div class="col-6 col-lg-3"><div class="card skill-card h-100 text-center p-4"><div class="fs-1 mb-2">🧠</div><h3 class="h5">Artificial Intelligence</h3><p class="text-secondary small mb-0">LLMs & RAG</p></div></div>
+        <div class="col-6 col-lg-3"><div class="card skill-card h-100 text-center p-4"><div class="fs-1 mb-2">🗄️</div><h3 class="h5">Databases</h3><p class="text-secondary small mb-0">PostgreSQL & Qdrant</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-top border-secondary-subtle py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+      <h3 class="h6 mb-0">Sharuf<span class="accent">.AI</span></h3>
+      <p class="small text-secondary mb-0">Built with Khoon pasiney ki mehnat</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

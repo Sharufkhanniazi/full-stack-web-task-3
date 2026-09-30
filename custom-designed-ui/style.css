@@ -1,0 +1,19 @@
+html { scroll-behavior:smooth; }
+body { background:#0b1020; color:#fff; }
+.navbar, footer { background:#0b1020; }
+.accent, .small-text, .project-number { color:#8b5cf6 !important; }
+.small-text { font-size:.75rem; letter-spacing:.2rem; }
+.hero-section { background:radial-gradient(circle at 80% 50%, #21184d, transparent 35%); min-height:550px; }
+.hero-section .lead { max-width:650px; }
+.ai-card, .project-card, .skill-card {
+  background:#121a2e; border:1px solid #27324d; color:#fff; transition:.3s;
+}
+.ai-card { border-color:#303b5c; border-radius:1.25rem; }
+.project-card:hover, .skill-card:hover { transform:translateY(-6px); border-color:#7c3aed; }
+.ai-circle {
+  width:110px; height:110px; display:flex; align-items:center; justify-content:center;
+  border-radius:50%; background:linear-gradient(135deg,#7c3aed,#2563eb);
+  font-size:30px; font-weight:bold; box-shadow:0 0 30px rgba(124,58,237,.5);
+}
+.tag { background:#202942; color:#aeb8ce; margin:.15rem; }
+.section-dark { background:#0e1527; }
