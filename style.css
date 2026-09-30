@@ -1,0 +1,16 @@
+body { font-family: Arial, sans-serif; color:#111; }
+.timetable { min-width: 1050px; table-layout: fixed; }
+.timetable th, .timetable td { border-color:#777; padding:.5rem; }
+.timetable thead th { height:76px; font-size:.75rem; font-weight:400; vertical-align:middle; }
+.day-column { width:10%; font-size:1.8rem; font-weight:400; border-right:2px solid #000 !important; }
+.timetable tbody tr { height:138px; }
+.timetable td { vertical-align:top; font-size:.875rem; }
+.timetable td small, .timetable td strong, .timetable td span { display:block; }
+.timetable td small { font-size:.625rem; margin-bottom:1.25rem; }
+.timetable td strong { font-size:.8rem; margin:0 auto 1.25rem; max-width:150px; }
+.timetable td span { font-size:.875rem; }
+.timetable .lab-cell strong { font-size:1rem; font-weight:400; margin-top:2.2rem; margin-bottom:2rem; max-width:100%; }
+.timetable .lab-cell small { text-align:left; font-size:.875rem; margin-bottom:0; }
+@media (max-width:768px) {
+  .day-column { font-size:1.5rem; }
+}
